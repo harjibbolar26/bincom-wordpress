@@ -1,0 +1,191 @@
+* > {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Georgia;
+}
+
+* > label {
+  font-size: 1.4rem;
+  margin-right: 1rem;
+}
+
+* > input {
+  width: 60%;
+  padding: 5px;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+h1 {
+  text-align: center;
+  text-decoration: underline;
+  font-size: 3rem;
+}
+
+.cv-content {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  justify-content: center;
+  /* height: 100vh; */
+  border: 1px solid;
+  width: fit-content;
+  margin: 0 auto;
+  padding: 2rem;
+  border-radius: 20px;
+}
+
+.personal-data {
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+}
+
+.names,
+.other-personals {
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  margin-bottom: 1rem;
+}
+
+.address {
+  margin-bottom: 1rem;
+  input {
+    width: 70rem;
+  }
+}
+
+.email {
+  input {
+    width: 40rem;
+  }
+  margin-right: 1rem;
+}
+
+.pnumber {
+  input {
+    width: 15rem;
+  }
+}
+
+.other-personals > input {
+  margin-right: 2rem;
+}
+
+.skills,
+.summary {
+  display: flex;
+  flex-direction: column;
+  label {
+    margin-bottom: 1rem;
+  }
+  textarea {
+    margin-bottom: 1rem;
+    padding: 5px;
+  }
+}
+
+.education {
+  display: flex;
+  align-items: center;
+  label {
+    margin-right: 1rem;
+  }
+  input {
+    margin-right: 1rem;
+  }
+}
+
+.education #school {
+  width: 60rem;
+}
+
+.education #date {
+  width: 10rem;
+}
+
+.experience {
+  display: flex;
+  flex-direction: column;
+  label {
+    margin: 1rem 0;
+  }
+  input {
+    margin-right: 1rem;
+  }
+}
+
+.work-1,
+.work-2 {
+  display: flex;
+  margin-bottom: 1rem;
+}
+
+.work-1 #work1,
+.work-2 #work2 {
+  width: 60rem;
+}
+
+.work-1 #work1-date,
+.work-2 #work2-date {
+  width: 10rem;
+}
+
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+#create,
+#getCv {
+  width: 30%;
+  padding: 1rem;
+  background: #000;
+  color: #fff;
+  outline: none;
+  font-size: 1.6rem;
+  border-radius: 10px;
+  cursor: pointer;
+  border: 1px solid beige;
+  transition: all 0.3s ease-in;
+  text-transform: uppercase;
+  text-align: center;
+  text-decoration: none;
+  margin: 5rem;
+}
+
+button {
+  width: 50%;
+  padding: 1rem;
+  background: #000;
+  color: #fff;
+  outline: none;
+  font-size: 1.6rem;
+  border-radius: 10px;
+  cursor: pointer;
+  border: 1px solid beige;
+  transition: all 0.3s ease-in;
+  text-transform: uppercase;
+  text-align: center;
+  text-decoration: none;
+  margin: 1rem auto;
+}
+
+#create:hover,
+#getCv:hover,
+button:hover {
+  background-color: #333;
+  color: #eee;
+}
+
+.displayed-cv {
+  font-size: 2rem;
+  span{display: inline-block;}
+}
